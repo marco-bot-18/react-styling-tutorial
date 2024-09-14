@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+      "jsx": "react-jsx", /* Specify what JSX code is generated. */
+      "target": "esnext", /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+      "lib": ["dom", "dom.iterable", "esnext"],  /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+      "allowJs": true, /* Allow JavaScript files to be a part of your program. Use the 'checkJS' option to get errors from these files. */
+      "checkJs": true, /* Enable error reporting in type-checked JavaScript files. */
+      "skipLibCheck": true, /* Skip type checking all .d.ts files. */
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "noEmit": true,
+      "esModuleInterop": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "allowImportingTsExtensions": true,
+      "incremental": true,
+      "noImplicitAny": true,
+      "alwaysStrict": true,
+      "noImplicitThis": true,
+      "strictNullChecks": true,
+      "explainFiles": true
+  },
+  "include": [
+      "src/**/*.ts",
+      "src/**/*.tsx",
+      "src/**/*.jsx",
+      "src/**/*.js",
+      "src/**/*.tsx"
+, "src/main.tsx"  ],
+  "exclude": ["node_modules"]
+}
